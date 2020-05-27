@@ -1,0 +1,25 @@
+{
+    "type": "package",
+    "name": "alistair9500/elm-w3css",
+    "version": "1.0.0",
+    "summary": "Elm library for W3 CSS framework",
+    "repository": "https://github.com/user/project.git",
+    "license": "BSD-3-Clause",
+    "source-directories": [
+        "."
+    ],
+    "exposed-modules": [
+        "W3css",
+        "W3css.Colors",
+        "W3css.Button",
+        "W3css.Margins",
+        "W3css.Animations",
+        "W3css.Responsive"
+    ],
+    "dependencies": {
+        "elm/core": "1.0.0 <= v < 2.0.0",
+        "elm/html": "1.0.0 <= v < 2.0.0"
+    },
+    "elm-version": "0.19.0 <= v < 0.20.0",
+    "test-dependencies": {}
+}
